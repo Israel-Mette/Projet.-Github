@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap');
+
+body, *{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    position: fixed;
+background-color: blue;
+padding: 10px;
+width: 100%;
+z-index: 5;
+text-align: center;
+margin-top: -10px;
+
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 800;
+    border: solid 5px white;
+    color: white;
+    /*background-color: blue;*/
+    display: inline-block;
+    padding: 2px 15px;
+    border-radius: 32px;
+
+}
+
+.welcome{
+max-width: 100%;
+width: 1200px;
+/*background-color: darkblue;*/
+position: relative;
+margin: 10px auto;
+height: 550px;
+}
+
+.welcome img{
+    position: absolute;
+    top: 28%;
+    left: 68%;
+    width: 230px;
+    border-radius: 40%;
+    background-color: darkgray;
+    border-top-right-radius: 0%;
+}
+
+.welcome h2{
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    position: absolute;
+    left: 5%;
+    top: 40%;
+    color: #333;
+}
+
+.welcome h2 span{
+    font-weight: bold;
+    color: blue;
+}
+
+nav{
+    position: sticky;
+    top: 78px;
+    margin: 25px auto;
+    background-color: darkgrey;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 10;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #222;
+    text-transform: lowercase;
+}
+
+main.main-content{
+    width: 100%;
+    max-width: 1000px;
+    margin: 75px auto;
+}
+
+section h2{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: blue;
+}
+
+section p{
+    font-size: 1.4rem;
+}
+
+.images{
+    display: flex;
+}
+
+.images li{
+    list-style-type: none;
+}
+
+.images img{
+    width: 100%;
+    border: solid 2px #e2e2e2;
+    border-radius: 1rem;
+}
+
+div.services .row{
+    display: flex;
+    margin-bottom: 2rem;
+}
+div.service-title{
+    display: flex;
+}
+.service-title img{
+    width: 32px;
+    margin-right: 15px;
+}
+
+div.service-title h3{
+    font-size: 1.5rem;
+    color: #444;
+}
+
+form{
+    border: solid 2px #ddd;
+    width: 50%;
+    background-color: rgb(141, 147, 228);
+}
+
+form input[type="text"], input[type="email"], form textarea{
+    padding: 8px;
+    font-size: 1.2rem;
+    width: 100%;
+    border: solid 2px #ddd;
+    margin: 6px 0;
+}
+
+form input[type="submit"], input[type="Envoyer"]{
+    font-size: 1.4rem;
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 2rem;
+}
+.whatsapp{
+    display: flex;
+    justify-content: center;
+}
+
+div.form{
+    position: relative;
+}
+
+div.form form{
+    position: absolute; 
+    top: 15%;
+    left: 40%;
+}
